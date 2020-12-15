@@ -1,0 +1,28 @@
+
+  html{
+    height: 100%;
+  }
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  height: 100%;
+overflow-y: hidden;
+}
+.navbar{
+  background-color: #415e9b;
+  height: 82px;
+  border-bottom: 1px solid #133783;
+}
+.fblogo{
+margin-left: 200px;
+padding-top: 15px;
+font-family: inherit;
+font-weight: bold;
+font-size: 50px;
+color: white;
+}
+.login-info{
+  text-align: right;
+}
