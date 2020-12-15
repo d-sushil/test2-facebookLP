@@ -10,19 +10,64 @@ body{
   height: 100%;
 overflow-y: hidden;
 }
-.navbar{
+header{
   background-color: #415e9b;
   height: 82px;
   border-bottom: 1px solid #133783;
+  color: #ffffff;
+ 
+ 
 }
+.navbar {
+  padding-top: 17px; /* text will start from 20Px down from the nav bar */
+  width: 1192px;
+  margin: 0 auto;  /* margin: 0 auto is shorthand for setting the top and bottom margins to zero, and the left and right margins to auto. ... By setting the width, the browser will automatically distribute the right amount of margin on either side of the yellow box. */
+}
+
 .fblogo{
-margin-left: 200px;
-padding-top: 15px;
+  float: left;
+  width: 50%;
+ padding-bottom: 20px;
+  /*margin-left: 20px;
+padding-top: 15px;*/ 
 font-family: inherit;
 font-weight: bold;
 font-size: 50px;
-color: white;
-}
+
+} 
 .login-info{
-  text-align: right;
+  float: left;
+  width: 50%;
+}
+#email{
+  float: left;
+  
+}
+/*#email label{
+  padding-bottom: 10px;*/ 
+}
+#email input [type="text"] {
+  height: 20px;
+  width: 150px;
+  border: 5px solid #05091a;
+}
+#password {
+float: left;
+margin-left: 15px;
+
+ #password  a {
+  text-decoration: none;
+  color: red;
+}
+/*#password label {
+  padding-bottom: 10px;*/  /*space from the input box to the text */ 
+
+
+#password input [type="password"]{
+  height: 20px;
+  width: 150px;
+  border: 5px solid  #05091a;
+}
+.login-botton {
+  float: left;
 }

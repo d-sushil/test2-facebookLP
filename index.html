@@ -9,15 +9,18 @@
   <title>facebook</title>
 </head>
 <body>
+  <header>
   <div class="navbar">
      <div class="fblogo">
        <P> facebook</P>
      </div> <!--fblogo-->
      <div class="login-info">
-       <p id="email-label">Email or Phone</p><input type="text" id="email">
-    <p id="password-label">Password </p> <input id="password" type="password">
-    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login" target="_blank" >Forgot password? </a>
+       <div id="email"><label>Email or Phone</label><br><input type="text" name="email" ></div> <!-- labeling the test so we can manage the padding above the input -->
+    <div id="password"><label>Password </label> <br><input  type="password" name="password" ><br>
+    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login" target="_blank" >Forgot password ? </a></div>
+    <div class="login-button"><input type="submit" value="log in ">  </div>
   </div> <!--login-info--> 
 
   </div> <!-- navbar-->
+</header>
 </body>
