@@ -1,5 +1,5 @@
 
-  html{
+  /* html{
     height: 100%;
   }
 *{
@@ -15,37 +15,35 @@ header{
   height: 82px;
   border-bottom: 1px solid #133783;
   color: #ffffff;
- 
- 
 }
 .navbar {
   padding-top: 17px; /* text will start from 20Px down from the nav bar */
-  width: 1192px;
+ /* width: 992px;
   margin: 0 auto;  /* margin: 0 auto is shorthand for setting the top and bottom margins to zero, and the left and right margins to auto. ... By setting the width, the browser will automatically distribute the right amount of margin on either side of the yellow box. */
-}
-
+/*
 .fblogo{
   float: left;
   width: 50%;
  padding-bottom: 20px;
-  /*margin-left: 20px;
-padding-top: 15px;*/ 
-font-family: inherit;
 font-weight: bold;
 font-size: 50px;
-
 } 
+ /*margin-left: 20px;
+padding-top: 15px;
+font-family: inherit;*/ 
+/*
 .login-info{
   float: left;
   width: 50%;
 }
+
 #email{
   float: left;
-  
-}
+  }
+
 /*#email label{
   padding-bottom: 10px;*/ 
-}
+/*
 #email input [type="text"] {
   height: 20px;
   width: 150px;
@@ -62,12 +60,96 @@ margin-left: 15px;
 /*#password label {
   padding-bottom: 10px;*/  /*space from the input box to the text */ 
 
+/*
 
 #password input [type="password"]{
   height: 20px;
   width: 150px;
   border: 5px solid  #05091a;
 }
-.login-botton {
+#login-botton {
   float: left;
+}
+#login-botton input [type="submit"] {
+  padding-top: 35px; 
+  background: #4267b2;
+  border: 1px solid black;
+  border-radius: 2px;
+  color: white;
+  height: 20px;
+} */ 
+html{
+  height: 100%;
+} 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+}
+body{
+  height: 100%;
+  margin: 0 auto;
+  overflow-y: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+
+}
+.navbar {
+  background-color: #415e9b;
+  height: 82px;
+  width: 100%;
+  border-bottom: 1px solid #133783;
+  color: #ffffff; 
+}
+.align {
+  width: 1100px;
+ margin-right: auto;
+ margin-left: auto;
+
+}
+/*................NAVBAR.....*/
+.fblogo{
+  float: left;
+ font-size: 50px;
+ font-weight: bold;
+ margin-top: 20px;
+}
+
+.login-info{
+  float: right;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.login-info #inputtext{
+  width: 150px;
+  height: 18px;
+}
+.login-info #inputpassword{
+  width: 150px;
+  height: 18px;
+}
+input[type=text]:focus{
+  outline: 1px solid #2d7ef8;
+ }
+ input[type=password]:focus{
+  outline: 1px solid #2d7ef8;
+ }
+
+.login-info #inputtext{
+  margin-right: 10px;
+}
+#button{
+  background-color: #b8ccf7;
+  padding: 05px 05px 05px 05px;
+ border: none;
+ border-radius: 3px;
+ margin-left: 10px;
+ height: 20px;
+  
+}
+.login-info a{
+  color: #b8ccf7;
+  text-decoration: none;
 }
